@@ -33,7 +33,7 @@ These are the fields that you should expect back:
 - **date_tested** - The date the sample was tested.
 - **date_dispatched** - The date the sample was dispatched.
 - **interpretation** - The raw result from the machine.
-- **result** - The result of the test. For EID, the result will be **Positive**, **Negative**, **Collect New Sample**. For VL, **< LDL copies/ml**, **> 10,000,000 cp/ml** **Collect New Sample** or a string containing an integer which has the copies per ml e.g. '1548'.
+- **result** - The result of the test. For EID, the result will be **Positive**, **Negative**, **Collect New Sample**. For VL,  the result will be **< LDL copies/ml**, **> 10,000,000 cp/ml**, **Collect New Sample**, or a string containing an integer which has the copies per ml e.g. '1548'.
 - **sample_status** - The status of the sample. It can either be Complete, Incomplete or Rejected.
 - **rejected_reason** - If the sample is rejected, this attribute will be present and will contain the reason why the sample was rejected.
 
