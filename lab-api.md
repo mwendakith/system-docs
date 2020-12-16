@@ -5,7 +5,7 @@
 
 All links are **POST** requests. All post requests are validated using a header called **apikey**. The postman collection has already added them.
 Open the link below in **POSTMAN** and then set the request to **POST** 
-> Get data by request type [click here](http://lab.test.nascop.org/api/function)
+> Get data by request type [click here](http://lab.test.nascop.org/api/function) You can now use GET requests for the same. Pass the apikey found in  the postman collection as a GET parameter. You can also pass the fields below as GET parameters.
 Fields
 - **test** - 1 for eid, 2 for vl **required**
 - **start_date** - (required when *end_date* is set). It filters using the date collected.
